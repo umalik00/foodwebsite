@@ -1,0 +1,174 @@
+.header-menu-container{
+    width: 1280px;
+    margin: auto;}
+
+.text-logo{
+    font-weight: 900;
+    font-size: 40px ;
+    color: white;
+    text-align:center;
+    text-decoration: none;
+}
+
+.logo{
+    vertical-align: middle;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+}
+.navbar-header{
+    background-color: #1c1f23;
+    height: 100px;
+}
+.header-menu-container{
+    color: #1c1f23;
+}
+
+#help{
+    font-size: xx-large;
+}
+
+#toprow{
+    background-color: #1c1f23;
+}
+
+.dropdown-menu{
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 100%) !important;
+}
+
+
+
+body{background-color:#f1f1f2 !important;}
+h3.h3{text-align:left;padding:1.5em ;text-transform:capitalize;font-size:1.5em;color: black}
+#newstitle{text-align:left;padding:1.5em ;text-transform:capitalize;font-size:28px;color: black;font-weight: 500; padding-left: 100px}
+/******************  News Slider Demo-2 *******************/
+.post-slide2{margin:0 15px;box-shadow:0 1px 2px rgba(43,59,93,.3);margin-bottom:2em; box-sizing: inherit}
+.post-slide2 .post-img{overflow:hidden}
+.post-slide2 .post-img img{width:100%;height:auto;transform:scale(1);transition:all 1s ease-in-out 0s}
+.post-slide2:hover .post-img img{transform:scale(1.08)}
+.post-slide2 .post-content{background:#fff;padding:20px}
+.post-slide2 .post-title{font-size:17px;font-weight:600;margin-top:0;text-transform:capitalize}
+.post-slide2 .post-title a{display:inline-block;color:grey;transition:all .3s ease 0s}
+.post-slide2 .post-title a:hover{color:#3d3030;text-decoration:none}
+.post-slide2 .post-description{font-size:15px;color:#676767;line-height:24px;margin-bottom:14px}
+.post-slide2 .post-bar{padding:0;margin-bottom:15px;list-style:none}
+.post-slide2 .post-bar li{color:#676767;padding:2px 0}
+.post-slide2 .post-bar li i{margin-right:5px}
+.post-slide2 .post-bar li a{display:inline-block;font-size:12px;color:grey;transition:all .3s ease 0s}
+.post-slide2 .post-bar li a:after{content:","}
+.post-slide2 .post-bar li a:last-child:after{content:""}
+.post-slide2 .post-bar li a:hover{color:#3d3030;text-decoration:none}
+.post-slide2 .read-more{display:inline-block;padding:10px 15px;font-size:14px;font-weight:700;color:#fff;background:#e7989a;border-bottom-right-radius:10px;text-transform:capitalize;transition:all .3s linear}
+.post-slide2 .read-more:hover{background:#333;text-decoration:none}
+.demo{margin: 20px; }
+
+#backbutton{margin-top: 200px;}
+#footer{
+    background-color: #1c1f23;
+    color: white;
+    font-family: inherit;
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#widgettitle{text-align:left;padding:1.5em ;text-transform:capitalize;font-size:28px;color: black;font-weight: 500; padding-left: 100px}
+.widgetbutton{
+    background-color: white;
+    color: black;
+    border: 2px solid #007BFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 120px;
+}
+
+
+
+
+
+
+
+.destinationat {
+    clear:left;
+    height:25px;
+    margin: 20px;
+}
+
+.desireddestination {
+    clear:left;
+    height:25px;
+    margin: 20px;
+}
+
+.campusMap {
+
+
+}
+
+.mapSearch {
+    clear:left;
+    height:100px;
+    margin: 20px;
+}
+.googlemap {
+    position: relative;
+    padding-bottom: 15%;
+    padding-top: 45px;
+    left: 0px;
+    bottom: -5px;
+    height: 0;
+    overflow: hidden;
+}
+
+.googlemap iframe,
+.googlemap object,
+.googlemap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.whereami {
+    position: relative;
+}
+
+.whereami img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 1700px;
+}
+
+
+
+
+.box {
+    text-align:center;
+    align-self: center;
+    border: 1px solid blue;
+}
+
+
+.map-container-7{
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-7 iframe{
+    left:0;
+    top:0;
+    height:500px;
+    width:800px;
+    position:center;
+}
