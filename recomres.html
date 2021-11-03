@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<head>
+    <title>Bootstrap Examples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+</script>
+
+
+
+<nav class="navbar navbar-expand-xs bg-dark navbar-dark">
+
+    <a class="text-logo logo" href="blackboard2.html" title="Pizza">
+        My Favourite Food
+    </a>
+
+    <nav class="navbar navbar bg-dark navbar-dark">
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control" type="text" size="90" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    </nav>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home/a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="recipe.html">Recipe</a>
+            </li>
+           
+        </ul>
+    </div>
+</nav>
+<br>
+
+<script>
+    $(document).ready(function() {
+
+        $("#news-slider2").owlCarousel({
+            items:4,
+            itemsDesktop:[1199,2],
+            itemsDesktopSmall:[980,2],
+            itemsMobile:[600,1],
+            pagination:false,
+            navigationText:false,
+            autoPlay:true
+        });
+
+    });
+</script>
+
+<div class="demo">
+    <div class = row>
+        <h1>Local Pizza Places<h1>
+    </div>
+    <div class="container-fluid" id=newscont>
+        <div class="row">
+
+            <div class="col-sm-12">
+                <div id="news-slider2" class="owl-carousel">
+                    <div class="post-slide2">
+                        <div class="post-img">
+                            <img src="https://th.bing.com/th/id/R.17fc526c0ea14fb3c6b134ca2889d712?rik=QAoGFzSl%2fDrrpQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-ZWdPLjtTO20%2fTcBOtmlRLxI%2fAAAAAAAAR9k%2feeZf-29bqB8%2fs1600%2fpizzahut_logo20.gif&ehk=M3u3ch88iWPZRJmBp%2fpiapDxOavAI1y%2fqBmfQcCCYOk%3d&risl=&pid=ImgRaw&r=0" alt="pepperoni">
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title"><a href="#">Pizza Hut</a></h3>
+                            <p class="post-description">
+                                Pizza Hut is an American multinational restaurant chain and international franchise...
+                              </p>
+                            
+                            <a href="#" class="read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide2">
+                        <div class="post-img">
+                            <img src="https://th.bing.com/th/id/OIP.0A-X03Xwp5RwST-e4W-GDAHaHe?pid=ImgDet&rs=1" alt="Pizza Express">
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title"><a href="#">Pizza Express</a></h3>
+                            <p class="post-description">
+                              PizzaExpress is a restaurant group based in the United Kingdom and owned by a group of...
+                            </p>
+                            <a href="#" class="read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide2">
+                        <div class="post-img">
+                            <img src="https://th.bing.com/th/id/OIP.e6qrqrC1nqDXjIi0EJR4lQAAAA?pid=ImgDet&rs=1" alt="Sergis Pizza">
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title"><a href="#">Sergis Pizza</a></h3>
+                            <p class="post-description">
+                              Software engineer turned pizza chef, Sergi's pizza is like no other. Original, authentic, Italian pizza made by Sergi himself. 
+                            </p>
+                            <a href="#" class="read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide2">
+                        <div class="post-img">
+                            <img src="https://th.bing.com/th/id/R.cbf503ef812232505559c5ddd8af3b08?rik=zN8pO8g4VJ%2f58A&pid=ImgRaw&r=0" alt="Domino's">
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title"><a href="#">Domino's</a></h3>
+                            <p class="post-description">
+                                Domino's Pizza Group plc is a United Kingdom-based master franchise of international fast food pizza delivery chain Domino's Pizza.
+                            </p>
+                            <a href="#" class="read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide2">
+                        <div class="post-img">
+                            <img src="https://www.gvsu.edu/cms4/asset/11D4DCA7-D2A4-ECE9-076148797429F78D/logos-ppj.jpg" alt="Papa John's">
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title"><a href="#">Papa John's</a></h3>
+                            <p class="post-description">
+                                Papa John's is an US-based pizza restaurant franchise. It is the fourth largest pizza delivery restaurant chain in the United States, with headquarters in Atlanta, Georgia.
+                            </p>
+                            <a href="#" class="read-more">read more</a>
+                        </div>
+                    </div> 
+
+                    
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+<br>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+</svg>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <p>© Futureproof. All rights reserved. 11-19 Artillery Row / first floor, London SW1P 1RT, UK | +44 (0) 1603 456161 | admissions@futureproof.uk
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</body>
+</html> 
